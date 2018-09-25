@@ -1,6 +1,12 @@
 # Prometheus Backup Exporter
 Custom Prometheus exporter for monitoring backup status in my personal server. Developed in Python3 language and has been tested on Ubuntu v18.04.
 
+## Guide
+Run program
+```py
+python3 backup_exporter.py
+```
+
 ## Info
 Custom exporter made to monitor backup files in different directories and report status for Prometheus to collect. The exporter checks the dates of all backup files/directories in the main directory and reports if there's any missing backups.
 
